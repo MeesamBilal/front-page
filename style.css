@@ -1,0 +1,318 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+
+}
+header{
+    height: 35px;
+    width: 100%;
+    background-color: rgb(51, 101, 207);
+}
+ul {
+    text-decoration: none;
+    color: aliceblue;
+    list-style-type: none;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    left: 18%;
+    font-weight: 400px;
+    font-size: 14px;
+}
+ul li{
+    padding: 4px;
+    margin:0 10px 10px 0;
+}
+ul li a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+.hero-section{
+background-image: url(bg.png);
+background-position: cover;
+background-repeat: no-repeat;
+}
+.hero-section span {
+    transform: translate(-50%, -50%);
+    animation: switch 5s infinite ease-in-out;
+}
+@keyframes switch {
+ 
+    0%,
+    5%,
+    100% {
+        filter: blur(0px);
+        opacity: 1;
+    }
+
+    50%,
+    80% {
+        filter: blur(180px);
+        opacity: 0;
+    }
+}
+.nav-item .nav-link{
+    top: -10%;
+    color:white;
+    font-size: 15px;
+    font-weight: 600; 
+    
+}
+.nav-item :hover{
+
+    color:rgb(51, 101, 207); 
+
+}
+
+h1{ 
+
+    font-size: 60px;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    justify-content: center;
+}
+h3{
+    margin-top: 5%;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    justify-content: center;
+}
+
+.input-field{
+    width: 40%;
+    position: relative;
+    border: none;
+    border-radius: none;
+    left: 30%;
+
+}
+h2{
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    justify-content: center;
+    margin-top: -5%;
+    margin-bottom: -5%;
+}
+h4{
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+    justify-content: center;
+    margin-top: -5%;
+    margin-bottom: -5%;
+}
+h5{
+    font-size: 40px;
+    font-weight: 350;
+    text-align: center;
+    justify-content: center;
+    margin-top: -3%;
+  
+}
+.img{
+    margin-left: 10%;
+}
+
+.btn{
+   background-color:rgb(51, 101, 207);
+   border-radius: none; 
+   color: antiquewhite;
+}
+.top-section{
+    padding: 100px 11% 100px;
+    display: flex;
+    
+}
+.top-section .row{
+    margin-top: 30px;
+    align-items: center;
+    display: flex;
+
+}
+.top-section .row .card{
+    border: none;
+    border-radius: none;
+    margin-left: 10px;
+    
+}
+.top-section .row .card .card-body{
+    text-align: center;
+
+}
+.top-section .card-body h5{
+    text-align: center;
+    font-size: 20px;
+}
+.top-section .card-body p{
+    align-content: center;
+ }
+.top-section .row .card img{
+    align-content: center;
+}
+.top-section .row .card-text{
+    font-size: small;
+    font-size: 15px;
+    color: rgb(127, 132, 133);
+}
+.text{
+    margin-top: 3%;
+    font-size: 18px;
+    color: rgb(72, 73, 73);
+    text-align: center;
+    justify-content: center;
+}
+.container .col-md span{
+ color: rgb(59, 59, 224);
+ font-weight: 700;
+ 
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box .card{
+    border: none;
+    border-radius: none;
+    width: 10%;
+    height: 20%;
+    text-align: center;
+    box-shadow: 1px 5px 7px 1px rgb(173, 173, 173);
+    padding-top: 15px;
+    left: 9%;
+    margin-top: 5%;
+    row-gap: 10px;
+    
+}
+.box .card img{
+    align-items: center;
+    justify-content: center;
+    margin-left: 17px;
+}
+.box  :hover{
+
+    transform: rotate(45deg);
+    
+}
+
+.box .card h6{
+    font-weight: 700;
+}
+.section{
+    background-color: rgb(28, 54, 167);
+
+}
+.image{
+    margin-left: -8%;
+  margin-top: 5%;
+}
+.img-fluid :hover{
+    cursor: all-scroll;
+    transform :translate(20px,20px);
+}
+.input{
+    margin-left: 90%;
+    width: 250px;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+}
+.courses .card {
+    width: 25%;
+    height: 30%;
+    box-sizing: border-box;
+    border-radius: 5%;
+    box-shadow: 1px 5px 7px 1px rgb(124, 123, 123);
+    margin-top: 5%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-right: 2%;
+    left : 10%;
+    margin-left: 3%;
+    margin-top: 5%;
+}
+.courses .card h5{
+    margin-top: 1%;
+    font-size: 24px;
+    margin-left: 3%;
+    text-align: left;
+    font-weight: 600;
+}
+.courses .card h6{
+    color: rgb(115, 115, 117);
+}
+.courses .card h{
+    margin-left: 85%;
+}
+
+
+
+
+
+
+.footer{
+	background-color: rgb(28, 54, 167);
+    
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h2{
+	font-size: 20px;
+	color: #ffffff;
+	margin-bottom: 20px;
+    margin-top: 2%;
+	font-weight: 700;
+
+}
+.footer-col ol li a{
+    list-style: none;
+    font-size: 15px;
+	font-weight: 450;
+	display: block;
+    margin-bottom: 5%;
+    margin-left: 15%;
+
+}
+.footer-col ol{
+    list-style: none;
+}
+.footer-bottom p{
+    text-align: center;
+    font-weight: 500;
+    
+}
+.footer-bottom span{
+    color: rgb(250, 146, 10);
+    font-weight: 500;
+}
+
+
+.footer-col ol li a:hover{
+	color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+
+
+
+
+
